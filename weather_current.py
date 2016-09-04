@@ -28,7 +28,6 @@ try:
 
         print("Line: " + line)
 
-        pattern = re.compile(r'\d+')
         decode = json.loads(line)
         weather = decode['weather'][0]['main']
 
